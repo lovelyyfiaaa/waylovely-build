@@ -1,0 +1,16 @@
+
+[sources.libxml2]
+url = [
+    "https://download.gnome.org/sources/libxml2/2.9/libxml2-2.9.14.tar.xz"
+]
+checksum = "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee"
+checksum_type = "sha256"
+
+steps = [
+
+    #!/bin/bash
+    #zlib_ng_path=$(readlink -m $PREFIX/../zlib-ng)
+
+    "kawaii cmake -DLIBXML2_WITH_TESTS=OFF -DLIBXML2_WITH_LZMA=OFF -DLIBXML2_WITH_HTTP=OFF -DLIBXML2_WITH_PYTHON=OFF"
+    #-DZLIB_INCLUDE_DIR=$zlib_ng_path/include -DZLIB_LIBRARY_DIR=$zlib_ng_path/lib
+]

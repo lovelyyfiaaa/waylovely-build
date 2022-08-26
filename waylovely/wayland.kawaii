@@ -1,0 +1,8 @@
+[sources.wayland]
+url = "https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.20.93/downloads/wayland-1.21.0.tar.xz"
+checksum = "6dc64d7fc16837a693a51cfdb2e568db538bfdc9f457d4656285bb9594ef11ac"
+checksum_type = "sha256"
+
+steps = [
+    "kawaii meson  -Ddocumentation=false \"$@\""
+]
