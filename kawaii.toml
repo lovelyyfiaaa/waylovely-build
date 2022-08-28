@@ -1,2 +1,9 @@
 [target]
 platforms = ["android"]
+
+[collection]
+collections = [
+    "waylovely",
+    "xlovely",
+    "utils"
+]
