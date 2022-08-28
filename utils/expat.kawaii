@@ -1,0 +1,4 @@
+[sources.expat]
+url = "https://github.com/libexpat/libexpat/releases/download/R_2_4_8/expat-2.4.8.tar.xz"
+checksum = "46cc9d725f359b77681a2875bfefa15ceee50eb9513f6577607c0c5833dfa4241565c74f26b84b38d802c3cd8c32f00204fd74272bcecbd21229425764eef86c"
+checksum_type = "sha512"
