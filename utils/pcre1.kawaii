@@ -1,7 +1,5 @@
 [sources.pcre1]
-url = [
-    "git+https://github.com/Waylovely-project/pcre1"
-]
+url = "git+https://github.com/Waylovely-project/pcre1"
 
 steps = [
     "kawaii"
