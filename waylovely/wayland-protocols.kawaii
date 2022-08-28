@@ -1,0 +1,4 @@
+[sources.wayland-protocols]
+url = "https://wayland.freedesktop.org/releases/wayland-protocols-1.26.tar.xz"
+checksum = "c553384c1c68afd762fa537a2569cc9074fe7600da12d3472761e77a2ba56f13"
+checksum_type = "sha256"
