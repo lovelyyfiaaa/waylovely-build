@@ -1,0 +1,4 @@
+[sources.xkeyboard-config]
+url = "https://xorg.freedesktop.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.36.tar.xz"
+checksum = "1f1bb1292a161d520a3485d378609277d108cd07cde0327c16811ff54c3e1595"
+checksum_type = "sha256"
