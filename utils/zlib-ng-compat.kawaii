@@ -1,0 +1,5 @@
+[sources.zlib-ng-compat] 
+url = "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.6.tar.gz"
+steps = [
+    "kawaii cmake . -DZLIB_COMPAT=ON -DZLIB_ENABLE_TESTS=OFF"
+]
