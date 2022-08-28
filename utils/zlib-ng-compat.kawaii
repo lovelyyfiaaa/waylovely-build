@@ -1,5 +1,8 @@
 [sources.zlib-ng-compat] 
 url = "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.0.6.tar.gz"
+checksum = "cb8af7677e5f3bd9e56a6b1c384d9c17bf3d44aeb3c0523453f00772185b337a"
+checksum_type = "sha256"
+
 steps = [
     "kawaii cmake . -DZLIB_COMPAT=ON -DZLIB_ENABLE_TESTS=OFF"
 ]
